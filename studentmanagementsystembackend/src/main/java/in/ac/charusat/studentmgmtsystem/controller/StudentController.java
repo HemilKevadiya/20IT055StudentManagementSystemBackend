@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins="https://myapp123.herokuapp.com")
+@CrossOrigin(origins="http://localhost:3000")
 public class StudentController {
     List<Student> students = new ArrayList<>(
             Arrays.asList(
